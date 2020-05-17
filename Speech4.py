@@ -11,7 +11,7 @@ pin = 2
 global var
 var = 1
 
-speech = LiveSpeech(lm=False, kws='/home/pi/PythonSpeech/key.list', verbose=False, no_search=False, full_utt=False, buffer_size=1048, sampling_rate=16000)
+speech = LiveSpeech(lm=False, kws='/home/pi/pythonspeech/key.list', verbose=False, no_search=False, full_utt=False, buffer_size=1048, sampling_rate=16000)
 
 with sr.AudioFile(audio) as source:
         print("say something")
